@@ -1,0 +1,209 @@
+/***BASE STYLES***/
+body {
+  color: #667b7b;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  min-width: 100%
+  width: 1200px;
+}
+
+h1 {
+ clear: both;
+ color: #493727;
+ font-size: 42px;
+ font-weight: 200;
+ padding: 15px 0 0 0;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+h2 {
+ font-family: 'Cookie', cursive;
+ font-size: 72px;
+ letter-spacing: 2px;
+ padding-left: 150px;
+}
+
+h2 span {
+ color: #493727;
+}
+
+h3 {
+  color: #493727;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/***HEADER***/
+.header-background {
+  background: url('../img/header-image.jpg');
+  background-position: center;
+  background-size: cover;
+  border-bottom: 2px solid #493727;
+  box-sizing: border-box;
+  height: 800px;
+}
+
+nav {
+  float: right;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #667b7b;
+  list-style-type: none;
+  padding: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/***MY PORTFOLIO***/
+main {
+  background-image: linear-gradient(180deg, #ffffff, #b1beba);
+}
+
+.my-portfolio {
+  box-sizing: border-box;
+  clear: both;
+  height: 800px;
+  margin: 0 auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.work-images {
+  padding: 50px 0 0 35px;
+}
+
+.work-images div {
+  float: left;
+  width: 525px;
+}
+
+.section-one, .section-two, .section-three {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.section-one img {
+  box-shadow: 0 0 25px rgba(0,0,0, .50);
+  height: 400px;
+  margin: 0 25px 0 35px;
+  width: 525px;
+}
+
+.section-two img {
+  box-shadow: 0 0 25px rgba(0,0,0, .50);
+  height: 400px;
+  margin-left: 60px;
+  width: 350px;
+}
+
+.section-three img {
+  box-shadow: 0 0 25px rgba(0,0,0, .50);
+  height: 400px;
+  margin: 0 25px 0 25px;
+  width: 525px;
+}
+
+.center {
+  font-size: 18px;
+  padding-left: 100px;
+  width: 400px;
+}
+
+.github {
+  clear: both;
+  display: inline-block;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.github a {
+  color: #493727;
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  padding: 1px;
+  text-decoration: none;
+}
+
+/***ABOUT ME***/
+.about-me {
+  box-sizing: border-box;
+  clear: both;
+  height: 800px;
+  padding: 90px 0 0 175px;
+}
+
+.about-info {
+  float: left;
+  padding-right: 150px;
+  padding-top: 10px;
+  width: 600px;
+}
+
+.about-me p {
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 50px;
+}
+
+/***FOOTER***/
+footer {
+  box-sizing: border-box;
+  clear: both;
+  height: 750px;
+  padding: 100px;
+}
+
+.contact {
+  height: 425px;
+  padding-bottom: 600px;
+}
+
+.profile-pic {
+  float: left;
+  padding: 50px 50px 150px 400px;
+}
+
+.contact-image {
+  border: 10px solid #493727;
+  border-radius: 8px;
+  height: 300px;
+}
+
+.contact-info {
+  float: left;
+  padding: 100px 0 100px 100px;
+}
+
+.contact-info a {
+  color: #493727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.copyright {
+  clear: both;
+  text-align: center;
+}
