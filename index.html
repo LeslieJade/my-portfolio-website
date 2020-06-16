@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leslie Jade Baier | Web Developer</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -10,7 +11,6 @@
 
   <body>
     <header>
-      <div class="header-background">
         <nav>
           <ul>
             <li><a href="#my-portfolio">Work</a></li>
@@ -20,52 +20,53 @@
         </nav>
         <h1>Leslie Jade Baier</h1>
         <h2><span>Hi,</span> I'm a developer that loves to learn and create captivating websites.</h2>
-      </div>
     </header>
 
     <main>
-      <section class="my-portfolio" id="my-portfolio">
+      <section id="my-portfolio">
         <h3>My Portfolio</h3>
-        <div class="work-images">
-          <div class="section-one">
+        <div class="work-container">
+          <div class="section one">
             <a href="https://lesliejade.github.io/rogue-pickings/" target="_blank"> <img src="img/rogue-pickings.png" alt="Website created by Leslie Baier"/></a>
-            <p class="center">A landing page for a sample client based on a Photoshop PSD utilizing HTML &amp; CSS.</p>
+            <div>
+              <p>A landing page for a sample client based on a Photoshop PSD utilizing HTML &amp; CSS.</p>
+            </div>
           </div>
-          <div class="section-two">
+          <div class="section two">
             <a href="https://lesliejade.github.io/recipe-collection/" target="_blank"> <img src="img/recipe-collection.png" alt="Website created by Leslie Baier"/></a>
-            <p class="center">A recipe card webpage that allowed me to further my CSS knowledge.</p>
+            <p>A recipe card webpage that allowed me to further my CSS knowledge.</p>
           </div>
-          <div class="section-three">
+          <div class="section three">
             <a href="https://lesliejade.github.io/deliciously-simple/" target="_blank"> <img src="img/deliciously-simple-01.png" alt="Website created by Leslie Baier"/></a>
-            <p class="center">A recipe blog concept I created utilizing the parallax scroll in CSS.</p>
+            <p>A recipe blog concept I created utilizing the parallax scroll in CSS.</p>
           </div>
         </div>
-          <div class="github">
-            <a href="https://github.com/lesliejade" target="_blank">Click an image to view the full-page website, or find my work on Github</a>
-            <a href="https://github.com/lesliejade" target="_blank"> <img src="img/icon-github.png" alt="github"/></a>
-          </div>
+        <div class="github">
+          <a href="https://github.com/lesliejade" target="_blank">Click an image to view the website, or find my work on Github</a>
+          <a href="https://github.com/lesliejade" target="_blank"> <img src="img/icon-github.png" class="icon" alt="github"/></a>
+        </div>
       </section>
 
-      <section class="about-me" id="about-me">
+      <section id="about-me">
           <h3>About Me</h3>
-          <div class="about-info">
-            <p>I'm from Milwaukee, Wisconsin, where I currently reside with my husband and our two cats. For the last 10 years, I've enjoyed a unique career as a Slot Compliance Technician at Potawatomi Hotel & Casino, near downtown Milwaukee. In 2019, I took a Udemy course through work to broaden my Microsoft Excel knowledge, when I discovered how much I enjoyed learning Visual Basic for Applications, or VBA. Learning to write code opened up a new world for me and I knew I wanted to explore other coding languages. Recently, I enrolled in Skillcrush's Break into Tech program.</p>
+        <div class="about-container">
+          <div class="about-section">
+            <p>I'm from Milwaukee, Wisconsin, where I currently reside with my husband and our two cats. For the last 10 years, I've enjoyed a unique career as a Slot Compliance Technician at Potawatomi Hotel & Casino, near downtown Milwaukee. In 2019, I took a Udemy course through work to broaden my Microsoft Excel knowledge, when I discovered how much I enjoyed learning Visual Basic for Applications, or VBA. Learning to write code opened up a new world for me and I knew I wanted to explore other coding languages. Recently, I enrolled in Skillcrush's Break into Tech program to study HTML, CSS & JavaScript.</p>
           </div>
-          <div class="about-info">
+          <div class="about-section">
             <p>One week in, I had created my first one-page website and instantly, I knew I wanted a career change. Coding a website from scratch is an amazing feeling! I realized I had found something I truly loved that would allow me to continue learning, while giving me the freedom and versatility I was looking for in my work. Currently, I'm continuing to take courses in front-end and back-end development as well as UX/UI. I also plan to begin my search for a front end-development position where I can use my newly acquired capabilities, organizational skills and attention to detail to create captivating websites.</p>
           </div>
+        </div>
       </section>
 
       <section class="contact-me" id="contact-me">
-          <div>
-            <img src="img/contact-image.jpg" class="contact-image" alt="profile pic"/>
-          </div>
-          <div>
-            <h4>Are you looking for a front-end developer?<br> I would love to hear from you!<br><br>Feel free to contact me via email.</h4>
-            <a href="mailto:lesliejade@outlook.com" target="_blank"> <img src="img/icon-envelope.png" alt="envelope"/></a>
-            <a href="mailto:lesliejade@outlook.com" target="_blank">lesliejade[@]outlook.com</a>
-          </div>
-        </section>
+        <img src="img/contact-image.jpg" class="contact-image" alt="profile pic"/>
+        <h4>Are you looking for a front-end developer?<br> I would love to hear from you!<br><br>Feel free to contact me via email.</h4>
+        <div class="email">
+          <a href="mailto:lesliejade@outlook.com" target="_blank"> <img src="img/icon-envelope.png" class="icon" alt="envelope"/></a>
+          <a href="mailto:lesliejade@outlook.com" target="_blank">lesliejade[@]outlook.com</a>
+        </div>
+      </section>
 
         <footer>
           <div class="copyright">
