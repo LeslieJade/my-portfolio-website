@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leslie Jade Baier | Web Developer</title>
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lora:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+
+     <meta name="theme-color" content="#fafafa">
   </head>
 
   <body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
     <header>
         <nav>
           <ul>
@@ -27,23 +37,41 @@
         <h3>My Portfolio</h3>
         <div class="work-container">
           <div class="section one">
-            <a href="https://lesliejade.github.io/rogue-pickings/" target="_blank"> <img src="img/rogue-pickings.png" alt="Website created by Leslie Baier"/></a>
+            <a href="https://lesliejade.github.io/unplugged-retreat/" target="_blank">
+              <img src="img/unplugged-retreat.png" alt="Website created by Leslie Baier"/>
+            </a>
             <div>
-              <p>A landing page for a sample client based on a Photoshop PSD utilizing HTML &amp; CSS.</p>
+              <p>A fully responsive three page website for a tech retreat based on a Photoshop PSD.</p>
             </div>
           </div>
           <div class="section two">
-            <a href="https://lesliejade.github.io/recipe-collection/" target="_blank"> <img src="img/recipe-collection.png" alt="Website created by Leslie Baier"/></a>
-            <p>A recipe card webpage that allowed me to further my CSS knowledge.</p>
+            <a href="https://lesliejade.github.io/rogue-pickings/" target="_blank">
+              <img src="img/rogue-pickings.png" alt="Website created by Leslie Baier"/>
+            </a>
+            <div>
+              <p>A landing page for a sample client based on a Photoshop PSD.</p>
+            </div>
           </div>
           <div class="section three">
-            <a href="https://lesliejade.github.io/deliciously-simple/" target="_blank"> <img src="img/deliciously-simple-01.png" alt="Website created by Leslie Baier"/></a>
-            <p>A recipe blog concept I created utilizing the parallax scroll in CSS.</p>
+            <a href="https://lesliejade.github.io/recipe-collection/" target="_blank">
+              <img src="img/recipe-collection.png" alt="Website created by Leslie Baier"/>
+            </a>
+            <div>
+              <p>A recipe card webpage that allowed me to further my CSS knowledge.</p>
+            </div>
           </div>
-        </div>
-        <div class="github">
-          <a href="https://github.com/lesliejade" target="_blank">Click an image to view the website, or find my work on Github</a>
-          <a href="https://github.com/lesliejade" target="_blank"> <img src="img/icon-github.png" class="icon" alt="github"/></a>
+          <div class="section four">
+            <a href="https://lesliejade.github.io/deliciously-simple/" target="_blank">
+              <img src="img/deliciously-simple-01.png" alt="Website created by Leslie Baier"/>
+            </a>
+            <div>
+              <p>A recipe blog concept I created to practice working with HTML &amp; CSS.</p>
+            </div>
+          </div>
+          <div class="github">
+            <a href="https://github.com/lesliejade" target="_blank">Click an image to view the website, or find my work on Github</a>
+            <a href="https://github.com/lesliejade" target="_blank"> <img src="img/icon-github.png" class="icon" alt="github"/></a>
+          </div>
         </div>
       </section>
 
@@ -74,5 +102,19 @@
           </div>
       </footer>
     </main>
+
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+
   </body>
 </html>
