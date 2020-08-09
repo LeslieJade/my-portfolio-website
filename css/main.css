@@ -232,7 +232,7 @@ main {
   max-width: 100%;
 }
 
-.one, .two, .three {
+.one, .two, .three, .four {
   margin-bottom: 50px;
 }
 
@@ -319,81 +319,6 @@ footer {
   width: 100%;
 }
 
-@media all and (min-width: 768px) {
-
-  /* Tablet Styles */
-
-  html {
-    font-size: 14px;
-  }
-
-  h2 {
-    font-size: 3.5em;
-    line-height: 1.1;
-    margin-top: 25px;
-    padding-left: 50px;
-    width: 95%;
-  }
-
-  header {
-    min-height: 500px;
-  }
-
-  .about-container {
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  .about-section {
-    width: 45%;
-  }
-
-  .section {
-    max-width: 75%;
-  }
-
-  .icon {
-    height: 15px;
-  }
-
-  .contact-me {
-    min-height: 600px;
-  }
-
-  .contact-image {
-    height: 250px;
-  }
-}
-
-@media all and (min-width: 1200px) {
-
-  /* Desktop Styles */
-
-  html {
-    font-size: 18px;
-  }
-
-  header {
-    min-height: 600px;
-  }
-
-  .section {
-    max-width: 50%;
-  }
-
-  .icon {
-    height: 19px;
-  }
-
-  .contact-me {
-    min-height: 700px;
-  }
-
-  .contact-image {
-    min-height: 300px;
-  }
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -478,10 +403,85 @@ footer {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+   Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media all and (min-width: 768px) {
+
+  /* Tablet Styles */
+
+  html {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    line-height: 1.1;
+    margin-top: 25px;
+    padding-left: 50px;
+    width: 95%;
+  }
+
+  header {
+    min-height: 500px;
+  }
+
+  .about-container {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .about-section {
+    width: 45%;
+  }
+
+  .section {
+    max-width: 65%;
+  }
+
+  .icon {
+    height: 15px;
+  }
+
+  .contact-me {
+    min-height: 600px;
+  }
+
+  .contact-image {
+    height: 250px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+
+  /* Desktop Styles */
+
+  html {
+    font-size: 18px;
+  }
+
+  header {
+    min-height: 600px;
+  }
+
+  .section {
+    max-width: 50%;
+  }
+
+  .icon {
+    height: 19px;
+  }
+
+  .contact-me {
+    min-height: 700px;
+  }
+
+  .contact-image {
+    min-height: 300px;
+  }
+}
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
